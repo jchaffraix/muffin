@@ -2061,11 +2061,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 255e9440-90ed-4598-95ff-2e3d5c1ee110)
   )
-  (text "I think the rating is not correct.\n\nFor a 2V drop, the min resistance\nshould be 160 Ohm (this is 3x that\nand should yield to 6mA!)"
-    (at 137.795 119.38 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 5b415d38-5f6b-4aae-aa98-2a844e5c2e00)
-  )
 
   (label "DP" (at 220.345 81.915 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -2508,12 +2503,12 @@
   )
 
   (symbol (lib_id "Device:R") (at 192.405 119.38 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid 250c10ae-e00d-45a0-a675-d890c32aaab6)
-    (property "Reference" "R9" (id 0) (at 194.945 118.1099 0)
+    (property "Reference" "R9" (id 0) (at 194.945 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "470" (id 1) (at 194.945 120.6499 0)
+    (property "Value" "330" (id 1) (at 194.945 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 190.627 119.38 90)
@@ -2982,7 +2977,7 @@
     (property "Reference" "R4" (id 0) (at 177.8 118.1099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "470" (id 1) (at 177.8 120.6499 0)
+    (property "Value" "330" (id 1) (at 177.8 120.6499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 173.482 119.38 90)
@@ -3178,7 +3173,7 @@
     (property "Reference" "R6" (id 0) (at 186.69 118.1099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "470" (id 1) (at 186.69 120.6499 0)
+    (property "Value" "330" (id 1) (at 186.69 120.6499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 182.372 119.38 90)
@@ -3604,13 +3599,13 @@
       (reference "R3") (unit 1) (value "330") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/8b0c4867-e705-4bed-8a21-4e510f6fc69f"
-      (reference "R4") (unit 1) (value "470") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R4") (unit 1) (value "330") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/67cda601-c883-401d-88ff-be13607236cb"
       (reference "R5") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/c40d0725-a77a-4213-8747-3927d0e7b35e"
-      (reference "R6") (unit 1) (value "470") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R6") (unit 1) (value "330") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/6f1b32d5-3230-49b2-ae5a-8b8cf6bb0e39"
       (reference "R7") (unit 1) (value "22") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
@@ -3619,7 +3614,7 @@
       (reference "R8") (unit 1) (value "22") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/250c10ae-e00d-45a0-a675-d890c32aaab6"
-      (reference "R9") (unit 1) (value "470") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R9") (unit 1) (value "330") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/4246d1e0-3299-4379-9904-2168c4274e24"
       (reference "SW1") (unit 1) (value "RotaryEncoder_Switch") (footprint "Keebio:RotaryEncoder_EC11")
