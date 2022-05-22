@@ -2056,8 +2056,8 @@
     (uuid fe50333d-ffac-4924-8ff7-b1b1640157e6)
   )
 
-  (text "I could debounce the signal \nusing an RC filter but QMK\nhandles this for me"
-    (at 21.59 113.665 0)
+  (text "Note: We can debounce the\nsignals using an RC filter\nbut QMK handles this\nautomatically"
+    (at 19.05 120.015 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 255e9440-90ed-4598-95ff-2e3d5c1ee110)
   )
